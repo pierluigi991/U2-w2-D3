@@ -1,0 +1,62 @@
+@import "./partials/reset";
+@import "./partials/colors";
+@import "./partials/font";
+@import "./partials/spacing";
+@import "./partials/buttons";
+@import "./partials/mixingenerici";
+@import "./partials/animations";
+
+header{
+   
+    margin-block: 2rem;
+    flex-grow: 1;
+    .navbar{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    ul {
+        
+      padding-inline-start: 0;
+      list-style: none;
+      li{
+        display: inline-block;
+        padding: 0 20px;
+      }
+    }
+}
+.hero{
+    background-color: $bg-hero;
+}
+.grid{
+    display: flex;
+    
+}
+#hero {
+    background: $bg-hero;
+    h1,.btns{
+        margin:$medium-size 0;
+    }
+    .btns{
+        button:nth-child(1){
+            background: $button-1 ;
+            color:$hero-text-color;
+            padding:$small-size;
+        }
+        button:nth-child(2){
+            background: $button-2;
+            color:$hero-text-color;
+            padding:$small-size;
+        }
+        button:nth-child(3){
+            background: $button-3;
+            color:$hero-text-color;
+            padding:$small-size;
+        }
+    } 
+    .hero-1{
+        display: flex;
+
+    }
+}

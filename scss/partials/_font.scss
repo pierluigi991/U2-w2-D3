@@ -1,0 +1,8 @@
+$sans-serif-font: 'ff-dagny-web-pro', 'Helvetica Neue', Arial,  
+Helvetica, 'Liberation Sans', sans-serif;
+$serif-font: 'ff-tisa-web-pro', Georgia, Times, serif;
+
+@mixin title-big {
+    font-size: $fs-2;
+    margin-bottom: 5px;
+  }
